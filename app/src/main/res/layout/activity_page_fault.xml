@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageFault">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/pf_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/pfd"
+                android:layout_marginTop="70dp"/>
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="•	A page fault occurs when a program attempts to access data or code that is in its address space, but is not currently located in the system RAM."
+                android:textSize="25dp"/>
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:text="•	So basically when the page referenced by the CPU is not found in the main memory then the situation is termed as Page Fault."
+                android:textSize="25dp"/>
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="•	Whenever any page fault occurs, then the required page has to be fetched from the secondary memory into the main memory."
+                android:textSize="25dp"/>
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="•	In case if the required page is not loaded into the memory, then a page fault trap arises."
+                android:textSize="25dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifoExampleFragment">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:text="Example "
+            android:fontFamily="@font/title"
+            android:textSize="28dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/fifoe"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/ab"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@drawable/fifo_example"/>
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:text="•	Consider page reference string 1, 3, 0, 3, 5, 6 with 3 page frames. Find number of page faults."
+        android:textSize="25dp"/>
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="•	Initially all slots are empty, so when 1, 3, 0 came they are allocated to the empty slots —> 3 Page Faults."
+        android:textSize="25dp"/>
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="•	When 3 comes, it is already in memory so —> 0 Page Faults."
+        android:textSize="25dp"/>
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:text="•	Then 5 comes, it is not available in memory so it replaces the oldest page slot i.e. 1. —>1 Page Fault."
+        android:textSize="25dp"/>
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="•	6 comes, it is also not available in memory so it replaces the oldest page slot i.e. 3 —>1 Page Fault."
+        android:textSize="25dp"/>
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="•	Finally when 3 come it is not available so it replaces 0 —>1 Page Fault."
+        android:textSize="25dp"
+        android:layout_marginBottom="50dp"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrerequisiteKnowledge">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/pk_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/pk_toolbar"
+        android:id="@+id/img_vm"
+        android:src="@drawable/virtualmemory"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/paging"
+        android:layout_below="@+id/pk_toolbar"
+        android:id="@+id/img_paging"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Virtual Memory"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/txt_vm"
+        android:layout_below="@+id/img_vm"
+        android:fontFamily="@font/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paging    "
+        android:id="@+id/txt_paging"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/img_paging"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/title"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_pf"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pagefault"
+        android:layout_below="@+id/txt_vm"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pagehit"
+        android:id="@+id/img_ph"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_paging"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Page Fault"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/txt_pf"
+        android:layout_below="@+id/img_pf"
+        android:fontFamily="@font/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page Hit   "
+        android:layout_marginRight="10dp"
+        android:id="@+id/txt_ph"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/img_ph"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/title"/>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifoDetailFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/title"
+            android:text="First In First Out (FIFO) "
+            android:textSize="28dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/fifo"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/ab"/>
+    </LinearLayout>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:text="This is the simplest page replacement algorithm. In this algorithm, the OS maintains a queue that keeps track of all the pages in memory, with the oldest page at the front and the most recent page at the back."
+            android:textSize="25dp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:text="When there is a need for page replacement, the FIFO algorithm, swaps out the page at the front of the queue, that is the page which has been in the memory for the longest time."
+            android:textSize="70px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:text="Advantages :-"
+            android:fontFamily="@font/title"
+            android:textSize="28dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:text="•	Simple and easy to implement."
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="•	Low overhead."
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:text="Disadvantages :-"
+            android:fontFamily="@font/title"
+            android:textSize="28dp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:text="•	Poor performance."
+            android:textSize="25dp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="•	Does not consider the frequency of use or last used time, simply replaces the oldest page."
+            android:textSize="25dp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="50dp"
+            android:text="•	Suffers from Belady’s Anomaly (i.e. more page faults when we increase the number of page frames)."
+            android:textSize="25dp"/>
+    </LinearLayout>
+</ScrollView>

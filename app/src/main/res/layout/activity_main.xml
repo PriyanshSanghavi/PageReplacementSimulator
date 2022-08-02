@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:background="@mipmap/ic_launcher_round"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page Replacement Algorithm"
+        android:layout_below="@+id/logo"
+        android:fontFamily="@font/dancing_script"
+        android:layout_gravity="center"
+        android:layout_marginTop="70px"
+        android:textColor="#5f55ae"
+        android:textSize="90px"
+        android:textStyle="bold" />
+
+</LinearLayout>

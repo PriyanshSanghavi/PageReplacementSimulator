@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/pknowleged"
+            android:icon="@drawable/ic_memory"
+            android:title="Pre-requisite knowledge" />
+    </group>
+    <group android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item android:title="Algorithms">
+            <menu>
+                <item
+                    android:title="First In First Out"
+                    android:icon="@drawable/ic_code"
+                    android:id="@+id/fifo"/>
+                <item
+                    android:title="Last in First Out"
+                    android:icon="@drawable/ic_code"
+                    android:id="@+id/lifo"/>
+                <item
+                    android:title="Optimal Page Replacement"
+                    android:icon="@drawable/ic_code"
+                    android:id="@+id/opr"/>
+                <item
+                    android:title="Least Recently Used"
+                    android:icon="@drawable/ic_code"
+                    android:id="@+id/lru"/>
+                <item
+                    android:title="Comparision of Algorithm"
+                    android:icon="@drawable/ic_code"
+                    android:id="@+id/ca"/>
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/group3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+    </group>
+</menu>
