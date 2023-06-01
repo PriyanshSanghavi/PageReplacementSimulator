@@ -3,14 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/drawable/ic_article.xml" value="0.194" />
         <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_about_us.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_fifo.xml" value="0.15489130434782608" />
         <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_help.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_lifo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_lru.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_opr.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_page_fault.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/activity_page_hit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/fragment_fifo_detail.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/fragment_fifo_simulator.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/fragment_lifo_simulator.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/fragment_lru_detail.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/fragment_p_r_detail1.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/layout/fragment_p_r_detail2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/menu/bottommenu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Priyansh/AndroidStudioProjects/PageReplacementSimulator/app/src/main/res/menu/prmenu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

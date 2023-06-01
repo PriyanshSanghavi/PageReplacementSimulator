@@ -14,18 +14,20 @@
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
     <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="60dp"
-        android:id="@+id/container"/>
+        android:layout_marginBottom="60dp" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnavig"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/bnavig"
         android:layout_alignParentBottom="true"
         android:background="?android:attr/windowBackground"
-        app:menu="@menu/bottommenu"/>
+        app:menu="@menu/bottommenu" />
 
 </RelativeLayout>
